@@ -32,4 +32,5 @@ python selenium_connect.py --user yourusername --passwd yourpassword --is_remote
 ###  Notice : --is_remote 参数仅为yes or no
 
 --is_remote yes: 本地使用
+
 --is_remote no : 远程使用
