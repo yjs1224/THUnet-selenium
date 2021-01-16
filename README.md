@@ -26,9 +26,8 @@ chmod +x geckodriver
 sudo mv geckodriver /usr/local/bin/
 
 
-## 使用方法
+## 使用方法（examples）
 
-<<<<<<< HEAD
 仅连接校园网
 
 python selenium_connect.py
@@ -36,16 +35,3 @@ python selenium_connect.py
 定时， 自动连接校园网并自动登陆自己的清华邮箱给自己发一封本机ip的邮件
 
 python selenium_connect.py --by_mail --timer 86400
-=======
-pip install pyvirtualdisplay
-
-## 使用方法
-
-python selenium_connect.py --user yourusername --passwd yourpassword --is_remote yes
-
-###  Notice : --is_remote 参数仅为yes or no
-
---is_remote yes: 本地使用
-
---is_remote no : 远程使用
->>>>>>> b046a6a8b36f1960045c8708baf6df70594bac0e
