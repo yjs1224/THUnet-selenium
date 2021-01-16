@@ -7,6 +7,12 @@ A tool to login THU net for your server
 
 默认使用Firefox
 
+## 需要
+
+pip install pyvirtualdisplay
+
+sudo apt-get install Xvfb
+
 ## 在使用之前安装浏览器驱动
 
 请按照本地浏览器版本下载对应驱动
@@ -19,8 +25,13 @@ chmod +x geckodriver
 
 sudo mv geckodriver /usr/local/bin/
 
-## 如远程登陆需另外安装
 
-sudo apt install Xvfb
+## 使用方法
 
-pip install pyvirtualdisplay
+仅连接校园网
+
+python selenium_connect.py
+
+定时， 自动连接校园网并自动登陆自己的清华邮箱给自己发一封本机ip的邮件
+
+python selenium_connect.py --by_mail --timer 86400
